@@ -1,0 +1,235 @@
+@import url("http://fonts.googleapis.com/css?family=Cabin:400,500,600,700");
+@import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.2rem;
+  line-height: 160%;
+  background: #fff;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: normal;
+  color: #000;
+
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #000;
+  margin-bottom: .4rem;
+
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 100%;
+  margin: 20px 0 0 0;
+  color: #bd3613;
+}
+
+h3 {
+  font-size: 1.8rem;
+  line-height: 60%;
+  color: #bd3613;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+
+p {
+/*  margin-bottom: 10px;*/
+}
+
+.small {
+  font-size: 1rem;
+  color: #2176c7;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.layout {
+  *zoom: 1;
+  max-width: 100%;
+  _width: 100%;
+/*  padding-left: 1em;
+  padding-right: 1em;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*.layout:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+header {
+height: 100px;
+
+}
+
+
+.nav {
+  width: 100%;
+  height: 100px;
+
+}
+
+.nav > ul {
+/*  max-width: 60%;*/
+  height: 80px;
+}
+
+.nav > ul li{
+  float: right;
+  margin-right: 4%;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.logo {
+  float: left;
+  height: 80px;
+  margin-left: 23px;
+  margin-top: 4px;
+  width: 100px;
+}
+
+.logo > a > img {
+  max-width:45%;
+
+}
+
+
+.primary {
+  background: url("../images/arthome.jpg") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  display: block;
+  height: 0;
+  padding-bottom: 60%;
+  text-align: center;
+  max-width: 100%;
+  position: relative;
+}
+
+
+
+.secondary {
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: #C1D4E0;
+  position: relative;
+  text-align: justify;
+  height: 200px;
+}
+
+.secondary p {
+
+  left: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  padding-top: 43px;
+  right: auto;
+}
+
+
+
+.wgrid {
+  width: 100%;
+  background-color: #ebebeb;
+  display: block;
+  text-align: center;
+}
+
+
+.coholder {
+  display: inline-block;
+  width: 49%;
+}
+
+
+.coholder > img {
+  max-width: 100%;
+}
+
+
+footer {
+  color: #000;
+  background: #fff;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  position: relative;
+  text-align: center;
+}
+
+
+

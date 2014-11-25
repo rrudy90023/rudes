@@ -1,0 +1,40 @@
+{
+  "works": [{
+    "company" : "Lbox",
+    "project": "Ever After High",
+    "summary" : "Drawing and painting flowers may seem like a first-year art student's assignment, but Lorenzo Garcia brings depth, shadows, light, form and color to new heights with his unique and revolutionary technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs.",
+    "url": "http://www.meetup.com/rouxmeet/",
+    "artwork": "/images/placeholder.jpg"
+  },{
+    "company" : "Deutsch",
+    "project": "Volkswagen",
+    "summary": "Hillary is a sophomore art sculpture student at New York University, and has won the major international prizes for painters, including the Divinity Circle and the International Painter's Medal. Hillary's exhibit features paintings that contain only water including waves, deep sea, and river.",
+    "url": "http://www.meetup.com/rouxmeet/",  
+    "artwork" : "/images/placeholder.jpg"
+  },{
+    "company" : "TBWA Chiat DAY",
+    "project": "Pepsi",
+    "summary": "The leader of the MMA artistic movement in his hometown of Portland, Riley Rudolph Rewington draws a crowd wherever he goes. Mixing street performance, video, music, and traditional art, Riley has created some of the most unique and deeply poignant abstract works of his generation.",
+    "url": "http://www.meetup.com/rouxmeet/",
+    "artwork" : "/images/placeholder.jpg"
+  }],
+
+  "companies" : [{
+    "company" : "Lbox",
+    "img" : "/images/placeholder.jpg",
+    "url" : "/"
+  },{
+    "company" : "Deutsch",
+    "img" : "/images/placeholder.jpg",
+    "url" : "http://www.facebook.com/rouxmeet"
+  },{
+    "company" : "TBWA Chiat DAY",
+    "img" : "/images/placeholder.jpg",
+    "url" : "http://www.meetup.com/rouxmeet/"
+  },{
+    "company" : "TMZ",
+    "img" : "/images/placeholder.jpg",
+    "url" : "http://www.facebook.com/rouxmeet"
+  }]
+
+}
