@@ -39,7 +39,7 @@ router.get('/work/:clientid', function(req, res) {
       //item.projects.forEach(function(project) {
       //myProjects = myProjects.concat(project["namecase"]);
     //});
-      myProjects = myProjects.concat(item.client, item.preview, item.desc);
+      myProjects = myProjects.concat(item.namecase, item.client, item.preview, item.desc);
     } else {
       return;
     }
