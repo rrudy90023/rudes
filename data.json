@@ -1,64 +1,39 @@
 {
   "works": [{
     "client" : "Lbox",
-    "projects": [{
-      "namecase":"Ever After High",
-      "desc":"This is a project with fairies.",
-      "img" : "/images/placeholder.jpg",
-      "url" : "/" 
-      },
-      {
-      "namecase":"Monster High",
-      "desc":"This is a project with monsters.",
-      "img" : "/images/placeholder.jpg",
-      "url" : "/" 
-      }]
-      },
-    {
-    "client":"Deutsch",
-    "projects":[{
-      "namecase":"VW",
-      "desc":"This is a project about cars",
-      "img" : "/images/placeholder.jpg",
-      "url" : "/" 
-      },
-      {
-      "namecase":"HTC",
-      "desc":"This is a project about phones",
-      "img" : "/images/placeholder.jpg",
-      "url" : "/" 
-      }]
-    },
-    {
-    "client":"Chiat",
-    "projects":[{
-      "namecase":"Nissan",
-      "desc":"This is a project about nissans",
-      "img" : "/images/placeholder.jpg",
-      "url" : "/" 
-      },
-      {
-      "namecase":"Pepsi",
-      "desc":"This is a project about soda",
-      "img" : "/images/placeholder.jpg",
-      "url" : "/" 
-      }]
-    },
-    {
-    "client":"TMZ",
-    "projects":[{
-      "namecase":"Chatterzone",
-      "desc":"This is a project about Chatterzone",
-      "img" : "/images/placeholder.jpg",
-      "url" : "/" 
-      },
-      {
-      "namecase":"Games",
-      "desc":"This is a project about games",
-      "img" : "/images/placeholder.jpg",
-      "url" : "/" 
-      }]
-    }
+    "namecase":"EverAfterHigh",
+    "desc":"This is a project with fairies.",
+    "preview":"/images/Lbox.jpg",
+    "samples" : ["Lbox_01.jpg", "Lbox_02.jpg"]
+  },
+  {
+  "client" : "Lbox",
+    "namecase":"MonsterHigh",
+    "desc":"This is a project with Monster.",
+    "preview":"/images/Lbox.jpg",
+    "samples" : ["Lbox_01.jpg", "Lbox_02.jpg"]
+  },
+  {
+    "client" : "Deutsch",
+    "namecase":"VW",
+    "desc":"This is a project with Deutsch.",
+    "preview":"/images/Deutsch.jpg",
+    "samples" : ["Deutsch_01.jpg", "Deutsch_02.jpg"]
+  },
+  {
+    "client" : "Chiat",
+    "namecase":"Nissan",
+    "desc":"This is a project with Chiat.",
+    "preview":"/images/Chiat.jpg",
+    "samples" : ["Chiat_01.jpg", "Chiat_02.jpg"]
+  },
+  {
+    "client" : "TMZ",
+    "namecase":"Crap",
+    "desc":"This is a project with TMZ.",
+    "preview":"/images/TMZ.jpg",
+    "samples" : ["TMZ_01.jpg", "TMZ_02.jpg"]
+  }
 
   ],
 
