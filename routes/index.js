@@ -11,7 +11,7 @@ router.get('/', function(req, res) {
 router.get('/work', function(req, res) {
 	var myProjects = [];
   var myClients = [];
-  myClients = appdata.works;
+  //myClients = appdata.works;
   //loop in the works object
 	appdata.works.forEach ( function (item){
     //loop in more in the projects object
@@ -22,7 +22,8 @@ router.get('/work', function(req, res) {
   res.render('work', { 
   	title: 'Work',
   	projects: myProjects,
-    clients: myClients
+    clients: myClients,
+    page: 'work'
   });
 });
 
@@ -31,24 +32,26 @@ router.get('/work', function(req, res) {
 router.get('/work/:clientid', function(req, res) {
   var myProjects = [];
   var myClients = [];
-  myClients = appdata.works;
+  //myClients = appdata.works;
   appdata.works.forEach ( function (item){
     //find what client matches what
     if (item.namecase == req.params.clientid) {
+      myProjects = myProjects.concat(item.namecase, item.client, item.desc);
      //myClients.push(item);
-      //item.projects.forEach(function(project) {
+      item.samples.forEach(function(samples) {
+        myClients = myClients.concat(samples);
       //myProjects = myProjects.concat(project["namecase"]);
-    //});
-      myProjects = myProjects.concat(item.namecase, item.client, item.preview, item.desc);
-    } else {
-      return;
-    }
+    });
+
+      
+    } 
 
   });
   res.render('work', { 
     title: 'Work',
     projects: myProjects,
     clients: myClients,
+    page: 'workDetail'
   });
 });
 

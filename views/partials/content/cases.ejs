@@ -1,18 +1,59 @@
 <div class="wgrid">
-	<h1>Clients</h1>
+	<h1>Work</h1>
+
+
+              <% if (page=== 'work') { %>
+
+
+              	        <% appdata.works.forEach(function(item){ %>
+							<a href="/work/<%= item.namecase %>" class="coholder"><img src="/images/<%= item.namecase %>.jpg"><p><%= item.namecase%></p></a>
+
+						<% });  %>
 
 
 
 
 
-	<% if (projects.length > 0) { %>
-		<% for (i=0; i<projects.length; i++) { %>
-
-		<span><%= projects[i] %></span>
+      <% } else { %>
 
 
-		<% } %>
-	<% } %>
+				<% for (i=0; i<projects.length; i++) { %>
+
+				<span><%= projects[i] %></span>
+
+
+				<% } %>
+
+				<% for (i=0; i<clients.length; i++) { %>
+
+
+				<img src="/images/projects/<%= clients[i] %>">
+
+				<% } %>
+
+
+
+
+
+      <% }; %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>

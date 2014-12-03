@@ -3,8 +3,8 @@
 	
 
 
-		<% appdata.clients.forEach(function(item){ %>
-			<a href="<%= item.url %>" class="coholder"><img src="<%= item.img %>" alt="<%= item.client%>"><p><%= item.client%></p></a>
+		<% appdata.works.forEach(function(item){ %>
+			<a href="/work/<%= item.namecase %>" class="coholder"><img src="/images/<%= item.namecase %>.jpg"><p><%= item.namecase%></p></a>
 
 		<% });  %>
 
