@@ -36,7 +36,7 @@ router.get('/work/:clientid', function(req, res) {
   appdata.works.forEach ( function (item){
     //find what client matches what
     if (item.namecase == req.params.clientid) {
-      myProjects = myProjects.concat(item.namecase, item.client, item.desc);
+      myProjects = myProjects.concat(item.title, item.client, item.desc);
      //myClients.push(item);
       item.samples.forEach(function(samples) {
         myClients = myClients.concat(samples);

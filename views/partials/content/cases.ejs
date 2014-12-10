@@ -1,41 +1,56 @@
-<div class="wgrid">
-	<h1>Work</h1>
 
+	
+	<div class="wgrid">
 
-              <% if (page=== 'work') { %>
-
-
-              	        <% appdata.works.forEach(function(item){ %>
-							<a href="/work/<%= item.namecase %>" class="coholder"><img src="/images/<%= item.namecase %>.jpg"><p><%= item.namecase%></p></a>
-
-						<% });  %>
+	<% if (page=== 'work') { %>
 
 
 
+		<h1>Work</h1>
 
 
-      <% } else { %>
+		<% appdata.works.forEach(function(item){ %>
+		<a href="/work/<%= item.namecase %>" class="coholder"><img src="<%= item.preview %>"><p><%= item.namecase%></p></a>
+
+	
 
 
-				<% for (i=0; i<projects.length; i++) { %>
+	<% });  %>
 
-				<span><%= projects[i] %></span>
-
-
-				<% } %>
-
-				<% for (i=0; i<clients.length; i++) { %>
-
-
-				<img src="/images/projects/<%= clients[i] %>">
-
-				<% } %>
+	</div>
 
 
 
+	<% } else { %>
 
 
-      <% }; %>
+		<div class="tableft">
+
+		<% for (i=0; i<projects.length; i++) { %>
+
+			<span><%- projects[i] %></span><br/>
+
+
+		<% } %>
+
+
+		</div>
+
+		<div class="wgrid">
+
+
+		<% for (i=0; i<clients.length; i++) { %>
+
+
+			<img src="/images/projects/<%= clients[i] %>" class="coholder2">
+
+		<% } %>
+
+
+		</div>
+
+
+	<% }; %>
 
 
 
@@ -56,4 +71,3 @@
 
 
 
-</div>

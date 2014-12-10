@@ -215,6 +215,12 @@ height: 100px;
   line-height: 160%;
   background: #fff;
   color: #000;
+  text-align: left;
+}
+
+.tableft {
+
+  text-align: left;
 }
 
 .coholder {
@@ -224,6 +230,17 @@ height: 100px;
 
 
 .coholder > img {
+  max-width: 100%;
+}
+
+
+.coholder2 {
+  display: inline-block;
+  width: 80%;
+}
+
+
+.coholder2 > img {
   max-width: 100%;
 }
 
