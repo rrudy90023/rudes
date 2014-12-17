@@ -219,7 +219,7 @@ height: 100px;
 }
 
 .tableft {
-
+  padding: 5%;
   text-align: left;
 }
 
@@ -236,7 +236,7 @@ height: 100px;
 
 .coholder2 {
   display: inline-block;
-  width: 80%;
+  max-width: 100%;
 }
 
 
