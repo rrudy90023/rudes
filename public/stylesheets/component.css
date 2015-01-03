@@ -213,12 +213,9 @@
 @media screen and (max-width: 2900px) {
 	.grid li {
 		width: 49%;
-		margin-left: 0.75%;
+		margin-left: 0.5%;
 	}
 
-/*	.grid {
-		max-width: 71.3em;
-	}*/
 
 }
 
