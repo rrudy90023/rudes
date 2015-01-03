@@ -201,7 +201,10 @@ height: 100px;
   right: auto;
 }
 
+.wgrid ul{
 
+  text-align: center;
+}
 
 .wgrid {
   width: 100%;
@@ -224,7 +227,7 @@ height: 100px;
   text-align: left;
 }
 
-.coholder {
+/*.coholder {
   display: inline-block;
   width: 49%;
 }
@@ -243,7 +246,7 @@ height: 100px;
 
 .coholder2 > img {
   max-width: 100%;
-}
+}*/
 
 
 footer {

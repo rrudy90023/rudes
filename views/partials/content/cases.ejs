@@ -6,18 +6,20 @@
 
 
 
-		<h1>Work</h1>
+	<h1>Work</h1>
 
+	<ul class="grid effect-2" id="grid">
 
 		<% appdata.works.forEach(function(item){ %>
-		<a href="/work/<%= item.namecase %>" class="coholder"><img src="<%= item.preview %>"><p><%= item.namecase%></p></a>
+			<li><a href="/work/<%= item.namecase %>" class="coholder"><img src="<%= item.preview %>"><p><%= item.namecase%></p></a></li>
+		<% });  %>
 
-	
+	</ul>
 
 
-	<% });  %>
 
-	</div>
+
+
 
 
 
@@ -36,21 +38,45 @@
 
 		</div>
 
-		<div class="wgrid">
+		<ul class="grid effect-2" id="grid">
+
+			<% for (i=0; i<clients.length; i++) { %>
+
+				<li><img src="/images/projects/<%= clients[i] %>" class="coholder2"></li>
+
+			<% } %>
+
+		</ul>
 
 
-		<% for (i=0; i<clients.length; i++) { %>
+		<style type="text/css">
 
+			@media screen and (max-width: 2900px) {
 
-			<img src="/images/projects/<%= clients[i] %>" class="coholder2">
+				.grid li {
+					width: 99%;
+					margin-left: 0.75%;
+				}
 
-		<% } %>
+			}
 
+		</style>
 
-		</div>
 
 
 	<% }; %>
+
+
+	</div>
+
+
+		<script>
+			new AnimOnScroll( document.getElementById( 'grid' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			} );
+		</script>
 
 
 
