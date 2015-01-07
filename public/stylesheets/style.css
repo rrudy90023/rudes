@@ -171,15 +171,87 @@ height: 100px;
 
 
 .primary {
-  background: url("../images/arthome.png") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-color: #f99d5f;
   display: block;
   height: 0;
   padding-bottom: 60%;
   text-align: center;
   max-width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
+.bar {
+    left: 47%;
+    margin-top: -15%;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 4%;
+    -webkit-animation: mybar 12s; /* Chrome, Safari, Opera */
+    animation: mybar 12s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mybar {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(22deg);}
+}
+
+/* Standard syntax */
+@keyframes mybar {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(22deg);}
+}
+
+
+
+.stitch {
+    left: -2%;
+    margin-top: 54%;
+    position: absolute;
+    width: 57%;
+
+}
+
+.letters {
+   left: 72%;
+    margin-top: 16%;
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 61%;
+
+}
+
+#part {
+
+    left: 9%;
+    margin-top: -18%;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 50%;
+    -webkit-animation: myfirst 8s; /* Chrome, Safari, Opera */
+    animation: myfirst 8s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-25deg);}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-25deg);}
+}
 
 
 .secondary {

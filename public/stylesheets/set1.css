@@ -107,7 +107,7 @@ figure.effect-lily img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-40px,0, 0);
-	transform: translate3d(-40px,0,0);
+	transform: translate3d(-20px,0,0);
 }
 
 figure.effect-lily figcaption {
