@@ -190,6 +190,58 @@ svg{
   overflow: hidden;
 }
 
+
+
+.profile {
+  background-color: #ebebeb;
+  display: block;
+  height: 100%;
+
+  text-align: center;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.profile img {
+
+  max-width:100%;
+}
+
+.greet{
+    display: block;
+    font-size: 2em;
+    height: 51px;
+    margin-top: 1%;
+    position: relative;
+    text-align: center;
+
+}
+
+.holder {
+
+width: 100%;
+text-align:center;
+
+}
+
+.para{
+    display: block;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    text-align: justify;
+    width: 65%;
+}
+
+
+.container {
+
+
+}
+
 .bar {
     left: 47%;
     top: -21%;
