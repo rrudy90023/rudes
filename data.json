@@ -4,7 +4,7 @@
     "namecase":"EverAfterHigh",
     "title":"Ever After High",
     "desc":"This is a project with fairies.",
-    "preview":"/images/Lbox.jpg",
+    "preview":"http://rudes.de/images/Lbox.jpg",
     "samples" : ["Lbox_01.jpg", "Lbox_02.jpg"]
   },
   {
@@ -12,7 +12,7 @@
     "namecase":"MonsterHigh",
     "title":"Monster High",
     "desc":"This is a project with fairies.",
-    "preview":"/images/Lbox.jpg",
+    "preview":"http://rudes.de/images/Lbox.jpg",
     "samples" : ["Lbox_01.jpg", "Lbox_02.jpg"]
   },
   {
@@ -20,7 +20,7 @@
     "namecase":"PowerRangers",
     "title":"Power Rangers",
     "desc":"This is a project with rangers.",
-    "preview":"/images/Lbox.jpg",
+    "preview":"http://rudes.de/images/Lbox.jpg",
     "samples" : ["Lbox_01.jpg", "Lbox_02.jpg"]
   },
   {
@@ -28,7 +28,7 @@
     "namecase":"VW",
     "title":"VW",
     "desc":"This is a project with VW.",
-    "preview":"/images/Deutsch.jpg",
+    "preview":"http://rudes.de/images/Deutsch.jpg",
     "samples" : ["Deutsch_01.jpg", "Deutsch_02.jpg"]
   },
   {
@@ -36,7 +36,7 @@
     "namecase":"HTC",
     "title":"HTC",
     "desc":"This is a project with HTC.",
-    "preview":"/images/Deutsch.jpg",
+    "preview":"http://rudes.de/images/Deutsch.jpg",
     "samples" : ["Deutsch_01.jpg", "Deutsch_02.jpg"]
   },
   {
@@ -44,7 +44,7 @@
     "namecase":"Nissan",
     "title":"Nissan",
     "desc":"This is a project with Chiat.",
-    "preview":"/images/Chiat.jpg",
+    "preview":"http://rudes.de/images/Chiat.jpg",
     "samples" : ["Chiat_01.jpg", "Chiat_02.jpg"]
   },
   {
@@ -52,7 +52,7 @@
     "namecase":"Crap",
     "title":"Chatterzone",
     "desc":"This is a project with TMZ.",
-    "preview":"/images/TMZ.jpg",
+    "preview":"http://rudes.de/images/TMZ.jpg",
     "samples" : ["TMZ_01.jpg", "TMZ_02.jpg"]
   }
 
