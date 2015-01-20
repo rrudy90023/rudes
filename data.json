@@ -4,56 +4,56 @@
     "namecase":"EverAfterHigh",
     "title":"Ever After High",
     "desc":"This is a project with fairies.",
-    "preview":"http://rudes.de/images/Lbox.jpg",
-    "samples" : ["Lbox_01.jpg", "Lbox_02.jpg"]
+    "preview":"http://rudes.de/images/eah.jpg",
+    "samples" : ["eah_01.jpg", "eah_02.jpg"]
   },
   {
   "client" : "Lbox",
     "namecase":"MonsterHigh",
     "title":"Monster High",
     "desc":"This is a project with fairies.",
-    "preview":"http://rudes.de/images/Lbox.jpg",
-    "samples" : ["Lbox_01.jpg", "Lbox_02.jpg"]
+    "preview":"http://rudes.de/images/mh.jpg",
+    "samples" : ["mh_01.jpg", "mh_02.jpg"]
   },
   {
   "client" : "Lbox",
     "namecase":"PowerRangers",
     "title":"Power Rangers",
     "desc":"This is a project with rangers.",
-    "preview":"http://rudes.de/images/Lbox.jpg",
-    "samples" : ["Lbox_01.jpg", "Lbox_02.jpg"]
+    "preview":"http://rudes.de/images/pw.jpg",
+    "samples" : ["pr_01.jpg", "pr_02.jpg"]
   },
   {
     "client" : "Deutsch",
     "namecase":"VW",
     "title":"VW",
     "desc":"This is a project with VW.",
-    "preview":"http://rudes.de/images/Deutsch.jpg",
-    "samples" : ["Deutsch_01.jpg", "Deutsch_02.jpg"]
+    "preview":"http://rudes.de/images/vw.jpg",
+    "samples" : ["vw_01.jpg", "vw_02.jpg"]
   },
   {
     "client" : "Deutsch",
     "namecase":"HTC",
     "title":"HTC",
     "desc":"This is a project with HTC.",
-    "preview":"http://rudes.de/images/Deutsch.jpg",
-    "samples" : ["Deutsch_01.jpg", "Deutsch_02.jpg"]
+    "preview":"http://rudes.de/images/htc.jpg",
+    "samples" : ["htc_01.jpg", "htc_03.jpg"]
   },
   {
     "client" : "Chiat",
     "namecase":"Nissan",
     "title":"Nissan",
     "desc":"This is a project with Chiat.",
-    "preview":"http://rudes.de/images/Chiat.jpg",
-    "samples" : ["Chiat_01.jpg", "Chiat_02.jpg"]
+    "preview":"http://rudes.de/images/nissan.jpg",
+    "samples" : ["nissan_01.jpg", "nissan_02.jpg"]
   },
   {
-    "client" : "TMZ",
-    "namecase":"Crap",
-    "title":"Chatterzone",
+    "client" : "AOL",
+    "namecase":"TMZ",
+    "title":"Various",
     "desc":"This is a project with TMZ.",
-    "preview":"http://rudes.de/images/TMZ.jpg",
-    "samples" : ["TMZ_01.jpg", "TMZ_02.jpg"]
+    "preview":"http://rudes.de/images/tmz.jpg",
+    "samples" : ["tmz_01.jpg", "tmz_02.jpg"]
   }
 
   ]

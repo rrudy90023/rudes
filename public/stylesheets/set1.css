@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'feathericons';
@@ -7,7 +7,7 @@
 		url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
 		url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
 		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
-}
+}*/
 
 .grid {
 	position: relative;
@@ -28,7 +28,7 @@
 	max-width: 100%;
 /*	max-height: 400px;*/
 /*	width: 48%;*/
-	background: #3085a3;
+	background: #ff9966;
 	text-align: center;
 	cursor: pointer;
 }
@@ -101,13 +101,15 @@
 
 figure.effect-lily img {
 	max-width: none;
-	width: -webkit-calc(100% + 50px);
-	width: calc(100% + 50px);
-	opacity: 0.7;
+/*	width: -webkit-calc(100% + 50px);
+	width: calc(100% + 50px);*/
+	width: -webkit-calc(100%);
+	width: calc(100%);
+	opacity: 1;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-40px,0, 0);
-	transform: translate3d(-20px,0,0);
+/*	-webkit-transform: translate3d(-40px,0, 0);
+	transform: translate3d(-20px,0,0);*/
 }
 
 figure.effect-lily figcaption {
@@ -135,13 +137,20 @@ figure.effect-lily h2 {
 }
 
 figure.effect-lily p {
-	color: rgba(255,255,255,0.8);
+	color: black;
+	font-weight: bold;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
 }
 
-figure.effect-lily:hover img,
+figure.effect-lily:hover img {
+
+	opacity: 0;
+}
+
+
+
 figure.effect-lily:hover p {
 	opacity: 1;
 }
