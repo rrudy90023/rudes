@@ -219,7 +219,7 @@ svg{
 
 .profile img {
 
-  max-width:100%;
+  max-width:85%;
 }
 
 .greet{
@@ -243,15 +243,15 @@ text-align:center;
     display: block;
     font-size: 1.2em;
     margin: 0 auto;
-    padding: 20px;
+    padding: 4%;
     position: relative;
     text-align: justify;
-    width: 65%;
+    width: 85%;
 }
 
 
 .container {
-
+width: 100%;
 
 }
 
@@ -410,16 +410,16 @@ z-index: 3;
   background-color: #C1D4E0;
   position: relative;
   text-align: justify;
-  height: 200px;
+
 }
 
 .secondary p {
-
+font-size: 1.2em;
   left: auto;
   margin-left: auto;
   margin-right: auto;
-  max-width: 80%;
-  padding-top: 43px;
+  max-width: 90%;
+  padding: 4%;
   right: auto;
 }
 
