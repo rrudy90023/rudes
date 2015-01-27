@@ -3,7 +3,7 @@
     "client" : "Mattel",
     "namecase":"EverAfterHigh",
     "title":"Ever After High",
-    "desc":"This is a microsite showcasing new characters for the doll collection. It involved video engagement and character profiles.",
+    "desc":"This is a microsite showcasing new characters for a popular doll collection. It involved video engagement and character profiles.",
     "preview":"http://rudes.de/images/eah.jpg",
     "samples" : ["eah_01.jpg", "eah_02.jpg"]
   },
@@ -27,7 +27,7 @@
     "client" : "Volkswagen",
     "namecase":"VW",
     "title":"Various VW campaigns",
-    "desc":"Web advertising, rich media, and page overlays are some of many campaigns involved while emplyed in TBWAChiatDay.",
+    "desc":"Web advertising, rich media, and page overlays were some of many campaigns I was involved while emplyed in TBWAChiatDay.",
     "preview":"http://rudes.de/images/vw.jpg",
     "samples" : ["vw_01.jpg", "vw_02.jpg"]
   },
@@ -35,7 +35,7 @@
     "client" : "HTC",
     "namecase":"HTC",
     "title":"Various HTC campaigns",
-    "desc":"While working in Deustch I was involved in developing the home page redesign, facebook tabs, and web advertising.",
+    "desc":"While working in Deustch I was involved in developing home page redesign, facebook tabs, and web advertising.",
     "preview":"http://rudes.de/images/htc.jpg",
     "samples" : ["htc_01.jpg", "htc_03.jpg"]
   },
@@ -45,7 +45,7 @@
     "client" : "Personal Project",
     "namecase":"LA Bus Doors",
     "title":"LA Bus Doors Open",
-    "desc":"This is a project I made for users to post and share experiences in LA buses. I used Ruby/Rails with Heroku for data hosting.",
+    "desc":"This is a project I made for users to post and share experiences in LA bus transportation. I used Ruby/Rails with Heroku for data hosting.",
     "preview":"http://rudes.de/images/lab.jpg",
     "samples" : ["lab_01.jpg", "lab_02.jpg"]
   },
@@ -61,7 +61,7 @@
     "client" : "Personal Project",
     "namecase":"oh Cat",
     "title":"oh cat",
-    "desc":"This is an employee login app for a fictitious taco restaurant where a waiter can log a customer order through a smartphone. I used Node.js with Angular on Heroku hosting",
+    "desc":"This is an employee login app for a taco restaurant where a waiter can log a customer order through a smartphone. I used Node.js with Angular on Heroku hosting",
     "preview":"http://rudes.de/images/ocat.jpg",
     "samples" : ["ocat_01.jpg", "ocat_02.jpg"]
   },
@@ -71,7 +71,7 @@
     "client" : "Nissan USA",
     "namecase":"Nissan",
     "title":"Various Nissan campaigns",
-    "desc":"Various web advertising such as rich media, banner ads, and mini games were part of many campaigns I developed.",
+    "desc":"Various web advertising such as rich media, banner ads, and mini games were part of many campaigns I programmed.",
     "preview":"http://rudes.de/images/nissan.jpg",
     "samples" : ["nissan_01.jpg", "nissan_02.jpg"]
   },
@@ -79,7 +79,7 @@
     "client" : "AOL",
     "namecase":"TMZ",
     "title":"TMZ startup and launch",
-    "desc":"Being in charge of the interactive content, I developed and designed video player templates, interactive games, and brand identity.",
+    "desc":"Being in charge of the interactive department, I developed and designed video player templates, interactive games, online content, and brand identity.",
     "preview":"http://rudes.de/images/tmz.jpg",
     "samples" : ["tmz_01.jpg", "tmz_02.jpg"]
   },
