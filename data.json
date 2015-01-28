@@ -43,7 +43,7 @@
 
   {
     "client" : "Personal Project",
-    "namecase":"LA Bus Doors",
+    "namecase":"LA-Bus-Doors",
     "title":"LA Bus Doors Open",
     "desc":"This is a project I made for users to post and share experiences in LA bus transportation. I used Ruby/Rails with Heroku for data hosting.",
     "preview":"http://rudes.de/images/lab.jpg",
@@ -51,7 +51,7 @@
   },
   {
     "client" : "Personal Project",
-    "namecase":"Eat Beans",
+    "namecase":"Eat-Beans",
     "title":"Eat Beans",
     "desc":"Eat Beans is an health awareness app where users can post and share bean recipes. I used Ruby/Rails with Heroku for data hosting.",
     "preview":"http://rudes.de/images/eb.jpg",
@@ -59,7 +59,7 @@
   },
   {
     "client" : "Personal Project",
-    "namecase":"oh Cat",
+    "namecase":"oh-Cat",
     "title":"oh cat",
     "desc":"This is an employee login app for a taco restaurant where a waiter can log a customer order through a smartphone. I used Node.js with Angular on Heroku hosting",
     "preview":"http://rudes.de/images/ocat.jpg",
