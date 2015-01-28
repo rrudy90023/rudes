@@ -303,6 +303,7 @@ z-index: 5;
 animation: mybar 17s;
 -webkit-animation-fill-mode: forwards;
 -moz-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
 animation-delay: 3s;
 }
 
@@ -368,6 +369,7 @@ transform: rotate(10deg);
 animation: gray 16s;
 -webkit-animation-fill-mode: forwards;
 -moz-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
 animation-delay: 3s;
 /*    -webkit-clip-path: url(#svgPath);
 clip-path: url(#svgPath); */
@@ -425,6 +427,7 @@ width: 50%;
 animation: myfirst 18s;
 -webkit-animation-fill-mode: forwards;
 -moz-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
 animation-delay: 3s;
 }
 
