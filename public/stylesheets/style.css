@@ -187,7 +187,7 @@ width: 100px;
 }
 
 .logo > a > img {
-max-width:45%;
+max-width:50%;
 
 }
 
@@ -295,8 +295,8 @@ z-index: 99;
 left: 47%;
 top: -21%;
 position: absolute;
-transform: rotate(0deg);
--webkit-transform: rotate(0deg);
+transform: rotate(20deg);
+-webkit-transform: rotate(20deg);
 width: 4%;
 z-index: 5;
 -webkit-animation: mybar 17s; /* Chrome, Safari, Opera */
@@ -311,13 +311,13 @@ animation-delay: 3s;
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mybar {
-from {-webkit-transform: rotate(0deg);}
+from {-webkit-transform: rotate(20deg);}
 to {-webkit-transform: rotate(47deg);}
 }
 
 /* Standard syntax */
 @keyframes mybar {
-from {transform: rotate(0deg);}
+from {transform: rotate(20deg);}
 to {transform: rotate(47deg);}
 }
 

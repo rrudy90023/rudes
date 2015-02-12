@@ -11,6 +11,7 @@ router.get('/', function(req, res) {
 router.get('/work', function(req, res) {
 	var myProjects = [];
   var myClients = [];
+  var myUrls = [];
   //myClients = appdata.works;
   //loop in the works object
 	appdata.works.forEach ( function (item){
@@ -23,6 +24,7 @@ router.get('/work', function(req, res) {
   	title: 'Work',
   	projects: myProjects,
     clients: myClients,
+    urls: myUrls,
     page: 'work'
   });
 });
@@ -32,16 +34,21 @@ router.get('/work', function(req, res) {
 router.get('/work/:clientid', function(req, res) {
   var myProjects = [];
   var myClients = [];
+  var myUrls = [];
   //myClients = appdata.works;
   appdata.works.forEach ( function (item){
     //find what client matches what
     if (item.namecase == req.params.clientid) {
       myProjects = myProjects.concat("Project: " + item.title, "Client: " + item.client, item.desc);
+      myUrls = myUrls.concat(item.url);
      //myClients.push(item);
       item.samples.forEach(function(samples) {
         myClients = myClients.concat(samples);
       //myProjects = myProjects.concat(project["namecase"]);
     });
+
+
+      
 
       
     } 
@@ -51,6 +58,7 @@ router.get('/work/:clientid', function(req, res) {
     title: 'Work',
     projects: myProjects,
     clients: myClients,
+    urls: myUrls,
     page: 'workDetail'
   });
 });
