@@ -9,15 +9,6 @@
     "url" : "http://see.walmart.com/everafterhigh/"
   },
   {
-  "client" : "Hasbro",
-    "namecase":"MonsterHigh",
-    "title":"Monster High",
-    "desc":"This project included a compatibility test, video engagement, and character profiles with social.",
-    "preview":"http://rudes.de/images/mh.jpg",
-    "samples" : ["mh_01.jpg", "mh_02.jpg"],
-    "url" : "http://see.walmart.com/monsterhigh/"
-  },
-  {
   "client" : "Saban",
     "namecase":"PowerRangers",
     "title":"Power Rangers",
@@ -25,6 +16,33 @@
     "preview":"http://rudes.de/images/pw.jpg",
     "samples" : ["pr_01.jpg", "pr_02.jpg"],
     "url" : "http://see.walmart.com/powerrangers"
+  },
+  {
+  "client" : "LG",
+    "namecase":"LG",
+    "title":"LG",
+    "desc":"These are animated page headers for walmart. Constructed with Greensock, CSS3, JQuery, JS.",
+    "preview":"http://rudes.de/images/lg.jpg",
+    "samples" : ["lg_01.jpg", "lg_02.jpg"],
+    "url" : "http://rudes.de/lg/picture.html"
+  },
+  {
+  "client" : "Norelco",
+    "namecase":"Norelco",
+    "title":"Phillips Norelco",
+    "desc":"These are animated page headers for walmart. Constructed with Greensock, CSS3, JQuery, JS.",
+    "preview":"http://rudes.de/images/phil.jpg",
+    "samples" : ["phil_01.jpg", "phil_02.jpg"],
+    "url" : "http://rudes.de/norelco/norelco.html"
+  },
+  {
+  "client" : "Hasbro",
+    "namecase":"MonsterHigh",
+    "title":"Monster High",
+    "desc":"This project included a compatibility test, video engagement, and character profiles with social.",
+    "preview":"http://rudes.de/images/mh.jpg",
+    "samples" : ["mh_01.jpg", "mh_02.jpg"],
+    "url" : "http://see.walmart.com/monsterhigh/"
   },
   {
     "client" : "Volkswagen",

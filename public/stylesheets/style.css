@@ -180,7 +180,7 @@ display: inline-block;
 
 .logo {
 float: left;
-height: 80px;
+height: 95px;
 margin-left: 23px;
 margin-top: 4px;
 width: 100px;
@@ -232,7 +232,11 @@ text-align: center;
 
 }
 
+.hyp {
 
+  font-weight: bold;
+/*  text-decoration: underline;*/
+}
 
 #status {
 width:200px;
