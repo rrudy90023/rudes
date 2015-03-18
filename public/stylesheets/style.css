@@ -181,16 +181,16 @@ display: inline-block;
 .logo {
 float: left;
 height: 95px;
-margin-left: 23px;
+/*margin-left: 23px;*/
 margin-top: 4px;
 width: 100px;
 }
 
-.logo > a > img {
+/*.logo > a > img {
 max-width:50%;
 
 }
-
+*/
 
 .primary {
 background-color: #f99d5f;
