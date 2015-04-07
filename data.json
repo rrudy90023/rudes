@@ -1,5 +1,24 @@
 {
-  "works": [{
+  "works": [
+    {
+    "client" : "Lunchbox",
+    "namecase":"Lunchbox",
+    "title":"Lunchbox Showcase prototype",
+    "desc":"This protoype simulates the process of creating a unique url for archive purposes. Prospect clients use this to view company's past campaigns. It is fully responsive on all devices.",
+    "preview":"http://rudes.de/images/lbox.jpg",
+    "samples" : ["lbox_01.jpg", "lbox_02.jpg"],
+    "url" : "http://rudes.de/lbox_showcase/"
+  },
+  {
+    "client" : "Milkbone",
+    "namecase":"PetHub",
+    "title":"Milkbone Pethub Mobile",
+    "desc":"This is a mobile site for a Milkbone holiday promotion campaign. It consists of a email list submission and videos for pet safety.",
+    "preview":"http://rudes.de/images/pet.jpg",
+    "samples" : ["pet_01.jpg", "pet_02.jpg"],
+    "url" : "http://rudes.de/pethub/index.htm"
+  },
+  {
     "client" : "Mattel",
     "namecase":"EverAfterHigh",
     "title":"Ever After High",
@@ -68,7 +87,7 @@
     "client" : "Personal Project",
     "namecase":"LA-Bus-Doors",
     "title":"LA Bus Doors Open",
-    "desc":"This is a project I made for users to post and share experiences in LA bus transportation. I used Ruby/Rails with Heroku for data hosting.",
+    "desc":"This is a project I made for users to post and share experiences in LA bus transportation. I used Ruby/Rails with Heroku for data hosting. Viewable on all screen sizes.",
     "preview":"http://rudes.de/images/lab.jpg",
     "samples" : ["lab_01.jpg", "lab_02.jpg"],
     "url" : "http://la-bus-stories.herokuapp.com/"
@@ -77,7 +96,7 @@
     "client" : "Personal Project",
     "namecase":"Eat-Beans",
     "title":"Eat Beans",
-    "desc":"Eat Beans is an health awareness app where users can post and share bean recipes. I used Ruby/Rails with Heroku for data hosting.",
+    "desc":"Eat Beans is an health awareness app where users can post and share bean recipes. I used Ruby/Rails with Heroku for data hosting. It is responsive on all screen sizes.",
     "preview":"http://rudes.de/images/eb.jpg",
     "samples" : ["eb_01.jpg", "eb_02.jpg", "eb_03.jpg"],
     "url" : "http://eat-beans.herokuapp.com/"
@@ -86,7 +105,7 @@
     "client" : "Personal Project",
     "namecase":"oh-Cat",
     "title":"oh cat",
-    "desc":"This is an employee login app for a taco restaurant where a waiter can log a customer order through a smartphone. I used Node.js with Angular on Heroku hosting.",
+    "desc":"This is an employee login app for a taco restaurant where a waiter can log a customer order through a smartphone or tablet device. I used Node.js with Angular on Heroku hosting.",
     "preview":"http://rudes.de/images/ocat.jpg",
     "samples" : ["ocat_01.jpg", "ocat_02.jpg"],
     "url" : "http://ocat.herokuapp.com/"
