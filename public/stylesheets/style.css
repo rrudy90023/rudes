@@ -122,6 +122,11 @@ width: 86px;
 
 }
 
+.burger {
+font-size: 60px;
+text-rendering: geometricPrecision;
+}
+
 
 * {
 -webkit-box-sizing: border-box;
@@ -173,8 +178,8 @@ height: 80px;
 
 .nav > ul li{
 float: right;
-margin-right: 4%;
-margin-top: 20px;
+margin-right: 2%;
+margin-top: 28px;
 display: inline-block;
 }
 
@@ -513,6 +518,12 @@ text-align: left;
 .tableft {
 padding: 5%;
 text-align: left;
+}
+
+
+.soc-over {
+text-align: center;
+
 }
 
 /*.coholder {
