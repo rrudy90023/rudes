@@ -4,7 +4,7 @@
     "client" : "Lunchbox",
     "namecase":"Lunchbox",
     "title":"Lunchbox Showcase prototype",
-    "desc":"This protoype simulates the process of creating a unique url for archive purposes. Prospect clients use this to view company's past campaigns. It is fully responsive on all devices.",
+    "desc":"This prototype simulates the process of creating a unique URL for archive purposes. Prospect clients use this to view company's past campaigns. It is fully responsive on all devices.",
     "preview":"http://rudes.de/images/lbox.jpg",
     "samples" : ["lbox_01.jpg", "lbox_02.jpg"],
     "url" : "http://rudes.de/lbox_showcase/"
@@ -13,7 +13,7 @@
     "client" : "Milkbone",
     "namecase":"PetHub",
     "title":"Milkbone Pethub Mobile",
-    "desc":"This is a mobile site for a Milkbone holiday promotion campaign. It consists of a email list submission and videos for pet safety.",
+    "desc":"This is a mobile site for a Milkbone holiday promotion campaign. It consists of an email list submission and videos for pet safety.",
     "preview":"http://rudes.de/images/pet.jpg",
     "samples" : ["pet_01.jpg", "pet_02.jpg"],
     "url" : "http://rudes.de/pethub/index.htm"
@@ -31,7 +31,7 @@
   "client" : "Saban",
     "namecase":"PowerRangers",
     "title":"Power Rangers",
-    "desc":"This site consisted of a customizable letter maker for children. In addition, character profiles with social engagement.",
+    "desc":"This site consisted of a customizable letter maker for children. Also, character profiles with social engagement.",
     "preview":"http://rudes.de/images/pw.jpg",
     "samples" : ["pr_01.jpg", "pr_02.jpg"],
     "url" : "http://see.walmart.com/powerrangers"
@@ -40,7 +40,7 @@
   "client" : "LG",
     "namecase":"LG",
     "title":"LG",
-    "desc":"These are animated page headers for walmart. Constructed with Greensock, CSS3, JQuery, JS.",
+    "desc":"These are animated page headers for Walmart. Constructed with Greensock, CSS3, JQuery, JS.",
     "preview":"http://rudes.de/images/lg.jpg",
     "samples" : ["lg_01.jpg", "lg_02.jpg"],
     "url" : "http://rudes.de/lg/picture.html"
@@ -49,7 +49,7 @@
   "client" : "Norelco",
     "namecase":"Norelco",
     "title":"Phillips Norelco",
-    "desc":"These are animated page headers for walmart. Constructed with Greensock, CSS3, JQuery, JS.",
+    "desc":"These are animated page headers for Walmart. Constructed with Greensock, CSS3, JQuery, JS.",
     "preview":"http://rudes.de/images/phil.jpg",
     "samples" : ["phil_01.jpg", "phil_02.jpg"],
     "url" : "http://rudes.de/norelco/norelco.html"
@@ -67,7 +67,7 @@
     "client" : "Volkswagen",
     "namecase":"VW",
     "title":"Various VW campaigns",
-    "desc":"Web advertising, rich media, and page overlays were some of many campaigns I was involved while emplyed in TBWAChiatDay.",
+    "desc":"Web advertising, rich media, and page overlays were some of many campaigns I was involved while employed in TBWAChiatDay.",
     "preview":"http://rudes.de/images/vw.jpg",
     "samples" : ["vw_01.jpg", "vw_02.jpg"],
     "url" : "http://rudes.herokuapp.com/work/VW"
@@ -76,7 +76,7 @@
     "client" : "HTC",
     "namecase":"HTC",
     "title":"Various HTC campaigns",
-    "desc":"While working in Deustch I was involved in developing home page redesign, facebook tabs, and web advertising.",
+    "desc":"While working in Deutsch I was involved in developing home page redesign, Facebook tabs, and web advertising.",
     "preview":"http://rudes.de/images/htc.jpg",
     "samples" : ["htc_01.jpg", "htc_03.jpg"],
     "url" : "http://rudes.herokuapp.com/work/HTC"
@@ -96,7 +96,7 @@
     "client" : "Personal Project",
     "namecase":"Eat-Beans",
     "title":"Eat Beans",
-    "desc":"Eat Beans is an health awareness app where users can post and share bean recipes. I used Ruby/Rails with Heroku for data hosting. It is responsive on all screen sizes.",
+    "desc":"Eat Beans is a health awareness app where users can post and share bean recipes. I used Ruby/Rails with Heroku for data hosting. It is responsive on all screen sizes.",
     "preview":"http://rudes.de/images/eb.jpg",
     "samples" : ["eb_01.jpg", "eb_02.jpg", "eb_03.jpg"],
     "url" : "http://eat-beans.herokuapp.com/"
@@ -135,7 +135,7 @@
     "client" : "Zap2it.com",
     "namecase":"Zap2it",
     "title":"Various Zap2it campaigns",
-    "desc":"Working at Zap2it I was resposible for the design and development of interactive games, ads, and web pages.",
+    "desc":"Working at Zap2it, I handled the design and development of interactive games, ads, and web pages.",
     "preview":"http://rudes.de/images/zap.jpg",
     "samples" : ["zap_01.jpg", "zap_02.jpg"],
     "url" : "http://rudes.herokuapp.com/work/Zap2it"
