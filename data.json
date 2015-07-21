@@ -1,13 +1,22 @@
 {
   "works": [
     {
-    "client" : "Lunchbox",
-    "namecase":"Lunchbox",
-    "title":"Lunchbox Showcase prototype",
-    "desc":"This prototype simulates the process of creating a unique URL for archive purposes. Prospect clients use this to view company's past campaigns. It is fully responsive on all devices.",
-    "preview":"http://rudes.de/images/lbox.jpg",
-    "samples" : ["lbox_01.jpg", "lbox_02.jpg"],
-    "url" : "http://rudes.de/lbox_showcase/"
+    "client" : "KoolAid",
+    "namecase":"KoolAid",
+    "title":"KoolAid Card Creator",
+    "desc":"This is a KoolAid shareable card creator. The user can customize a card and share through a unique URL. It is fully responsive on all devices.",
+    "preview":"http://rudes.de/images/kool.jpg",
+    "samples" : ["kool_01.jpg", "kool_02.jpg", "kool_03.jpg", "kool_04.jpg"],
+    "url" : "http://see.walmart.com/pourmorefun"
+  },
+  {
+    "client" : "KeepCalm",
+    "namecase":"KeepCalm",
+    "title":"Keep Calm Micro site",
+    "desc":"This is a micro site site for Keep Calm and Lip Balm campaign. It is fully responsive on all devices.",
+    "preview":"http://rudes.de/images/calm.jpg",
+    "samples" : ["calm_01.jpg", "calm_02.jpg", "calm_03.jpg"],
+    "url" : "http://see.walmart.com/keepcalm"
   },
   {
     "client" : "Milkbone",
