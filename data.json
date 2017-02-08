@@ -1,6 +1,15 @@
 {
   "works": [
     {
+    "client" : "Gallery LA VR",
+    "namecase":"GalleryLA",
+    "title":"Gallery LA VR",
+    "desc":"I started a database of independent galleries in Downtown LA. Each gallery has a VR experience that I created with a 360 camera I purchased.",
+    "preview":"http://rudes.de/images/vr.jpg",
+    "samples" : ["vr_01.jpg"],
+    "url" : "http://galleryla.herokuapp.com"
+    },
+    {
     "client" : "KoolAid",
     "namecase":"KoolAid",
     "title":"KoolAid Card Creator",
