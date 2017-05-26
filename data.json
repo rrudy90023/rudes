@@ -1,6 +1,42 @@
 {
   "works": [
     {
+    "client" : "Leap Motion Experiment",
+    "namecase":"LeapMotion",
+    "title":"Leap Motion Experiment",
+    "desc":"Over time I familiarized with Aframe and made an VR experient with Leap Motion. With the Leap you control the 3D object.",
+    "preview":"http://rudes.de/images/leap.jpg",
+    "samples" : ["leap_01.jpg"],
+    "url" : ""
+    },
+    {
+    "client" : "Media Arts Lab",
+    "namecase":"MALinfo",
+    "title":"Media Arts Lab Marketing Infographics",
+    "desc":"This is a data visualizing tool using React.js and D3 for MAL's marketing team.",
+    "preview":"http://rudes.de/images/infog.jpg",
+    "samples" : ["infog_01.jpg", "infog_02.jpg", "infog_03.jpg"],
+    "url" : ""
+    },
+    {
+    "client" : "Aframe Experiment",
+    "namecase":"Aframe",
+    "title":"Aframe Mobile Device Accelerometer",
+    "desc":"Control the board game using Socket.io and your mobile device.",
+    "preview":"http://rudes.de/images/accel.jpg",
+    "samples" : ["accel_01.jpg"],
+    "url" : ""
+    },
+    {
+    "client" : "Media Arts Lab",
+    "namecase":"MALipad",
+    "title":"Media Arts Lab Digital Print",
+    "desc":"This project was developed by a 3rd party in which I helped modify and manage development throughout a span of time",
+    "preview":"http://rudes.de/images/ipad.jpg",
+    "samples" : ["ipadprint_01.jpg", "ipadprint_02.jpg"],
+    "url" : ""
+    },    
+    {
     "client" : "Gallery LA VR",
     "namecase":"GalleryLA",
     "title":"Gallery LA VR",
