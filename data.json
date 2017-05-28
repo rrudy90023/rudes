@@ -51,7 +51,7 @@
     "title":"KoolAid Card Creator",
     "desc":"This is a KoolAid shareable card creator. The user can customize a card and share through a unique URL. It is fully responsive on all devices.",
     "preview":"http://rudes.de/images/kool.jpg",
-    "samples" : ["kool_01.jpg", "kool_02.jpg", "kool_03.jpg", "kool_04.jpg"],
+    "samples" : ["kool_01.jpg", "kool_02.jpg", "kool_03.jpg"],
     "url" : "http://see.walmart.com/pourmorefun"
   },
   {
@@ -69,7 +69,7 @@
     "title":"Milkbone Pethub Mobile",
     "desc":"This is a mobile site for a Milkbone holiday promotion campaign. It consists of an email list submission and videos for pet safety.",
     "preview":"http://rudes.de/images/pet.jpg",
-    "samples" : ["pet_01.jpg", "pet_02.jpg"],
+    "samples" : ["pet_01.jpg"],
     "url" : "http://rudes.de/pethub/index.htm"
   },
   {
@@ -96,7 +96,7 @@
     "title":"LG",
     "desc":"These are animated page headers for Walmart. Constructed with Greensock, CSS3, JQuery, JS.",
     "preview":"http://rudes.de/images/lg.jpg",
-    "samples" : ["lg_01.jpg", "lg_02.jpg"],
+    "samples" : ["lg_01.jpg"],
     "url" : "http://rudes.de/lg/picture.html"
   },
   {
@@ -105,17 +105,8 @@
     "title":"Phillips Norelco",
     "desc":"These are animated page headers for Walmart. Constructed with Greensock, CSS3, JQuery, JS.",
     "preview":"http://rudes.de/images/phil.jpg",
-    "samples" : ["phil_01.jpg", "phil_02.jpg"],
+    "samples" : ["phil_01.jpg"],
     "url" : "http://rudes.de/norelco/norelco.html"
-  },
-  {
-  "client" : "Hasbro",
-    "namecase":"MonsterHigh",
-    "title":"Monster High",
-    "desc":"This project included a compatibility test, video engagement, and character profiles with social.",
-    "preview":"http://rudes.de/images/mh.jpg",
-    "samples" : ["mh_01.jpg", "mh_02.jpg"],
-    "url" : "http://see.walmart.com/monsterhigh/"
   },
   {
     "client" : "Volkswagen",
@@ -152,7 +143,7 @@
     "title":"Eat Beans",
     "desc":"Eat Beans is a health awareness app where users can post and share bean recipes. I used Ruby/Rails with Heroku for data hosting. It is responsive on all screen sizes.",
     "preview":"http://rudes.de/images/eb.jpg",
-    "samples" : ["eb_01.jpg", "eb_02.jpg", "eb_03.jpg"],
+    "samples" : ["eb_01.jpg", "eb_02.jpg"],
     "url" : "http://eat-beans.herokuapp.com/"
   },
   {
