@@ -1,129 +1,54 @@
 
-	
 	<div class="wgrid">
-
 	<% if (page=== 'work') { %>
-
-
-
 	<h1>Work</h1>
-
-	<ul class="grid effect-2" id="grid">
-
-		<% appdata.works.forEach(function(item){ %>
-
-
-
-			<li>
-
-				<figure class="effect-lily">
-
-					<a href="/work/<%= item.namecase %>">
-
-					<img src="<%= item.preview %>">
-
-					<figcaption>
-
-						<div>
-
-							<!-- <h2>Test <span>One</span></h2> -->
-
-							<p><%= item.namecase%></p>
-
-						</div>
-
-
-						
-
-						
-					</figcaption>
-
-					</a>
-
-				</figure>
-
-			</li>
-
-
-
-		<% });  %>
-
-	</ul>
-
-
-
-
-
-
-
-
-	<% } else { %>
-
-
-		<div class="tableft">
-
-		<% for (i=0; i<projects.length; i++) { %>
-
-			<span><%- projects[i] %></span><br/>
-
-		<% } %>
-
-
-
-		<% for (i=0; i<urls.length; i++) { %>
- 
- 			<a href='<%= urls[i] %>' target="_blank"><span class="hyp">View case >></span></a><br/>
- 
- 		<% } %>
- 
-
-
-
-		</div>
-
 		<ul class="grid effect-2" id="grid">
-
-			<% for (i=0; i<clients.length; i++) { %>
-
-				<li><img src="http://rudes.de/images/projects/<%= clients[i] %>" class="coholder2"></li>
-
-			<% } %>
-
+			<% appdata.works.forEach(function(item){ %>
+				<li>
+					<figure class="effect-lily">
+						<a href="/work/<%= item.namecase %>">
+						<img src="<%= item.preview %>">
+						<figcaption>
+							<div>
+								<p><%= item.namecase%></p>
+							</div>
+						</figcaption>
+						</a>
+					</figure>
+				</li>
+			<% });  %>
 		</ul>
-
-
-		<style type="text/css">
-
-			@media screen and (max-width: 2900px) {
-
-				.grid li {
-					width: 99%;
-					margin-left: 0.75%;
-				}
-
-			}
-
-		</style>
-
-
-
-	<% }; %>
-
-
-	</div>
-
-
-		<script>
-			new AnimOnScroll( document.getElementById( 'grid' ), {
-				minDuration : 0.4,
-				maxDuration : 0.7,
-				viewportFactor : 0.2
-			} );
+		<% } else { %>
+				<div class="tableft">
+					<% for (i=0; i<projects.length; i++) { %>
+						<span><%- projects[i] %></span><br/>
+					<% } %>
+					<% for (i=0; i<urls.length; i++) { %>
+			 			<a href='<%= urls[i] %>' target="_blank"><span class="hyp">View case >></span></a><br/>
+			 		<% } %>
+				</div>
+				<ul class="grid effect-2" id="grid">
+					<% for (i=0; i<clients.length; i++) { %>
+						<li><img src="http://rudes.de/images/projects/<%= clients[i] %>" class="coholder2"></li>
+					<% } %>
+				</ul>
+				<style type="text/css">
+					@media screen and (max-width: 2900px) {
+						.grid li {
+							width: 99%;
+							margin-left: 0.75%;
+						}
+					}
+				</style>
+			<% }; %>
+			</div>
+			<script>
+				new AnimOnScroll( document.getElementById( 'grid' ), {
+					minDuration : 0.4,
+					maxDuration : 0.7,
+					viewportFactor : 0.2
+		} );
 		</script>
-
-
-
-
 
 		<!--<script>
 			// For Demo purposes only (show hover effect on mobile devices)
