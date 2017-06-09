@@ -16,7 +16,7 @@
 "desc":"This is a data visualizing tool using React.js and D3 for MAL's marketing team. Data is stored in a JSON object.",
 "preview":"http://rudes.de/images/infog.jpg",
 "samples" : ["infog_01.jpg", "infog_02.jpg", "infog_03.jpg"],
-"url" : "http://rudes.herokuapp.com/work/MALinfo"
+"url" : ""
 },
 {
 "client" : "Aframe Experiment",
@@ -34,7 +34,7 @@
 "desc":"This project was from a 3rd party vendor in which I helped modify and manage the production process throughout its lifespan.",
 "preview":"http://rudes.de/images/ipad.jpg",
 "samples" : ["ipadprint_01.jpg", "ipadprint_02.jpg"],
-"url" : "http://rudes.herokuapp.com/work/MALipad"
+"url" : ""
 },    
 {
 "client" : "Gallery LA VR",
@@ -52,7 +52,7 @@
 "desc":"This is a KoolAid shareable card creator. The user can customize a card and share through a unique URL. It is responsive on all devices.",
 "preview":"http://rudes.de/images/kool.jpg",
 "samples" : ["kool_01.jpg", "kool_02.jpg", "kool_03.jpg"],
-"url" : "http://rudes.herokuapp.com/work/KoolAid"
+"url" : ""
 },
 {
 "client" : "KeepCalm",
@@ -61,7 +61,7 @@
 "desc":"This is a micro site for Keep Calm Lip Balm campaign. It is fully responsive on all devices.",
 "preview":"http://rudes.de/images/calm.jpg",
 "samples" : ["calm_01.jpg", "calm_02.jpg", "calm_03.jpg"],
-"url" : "http://rudes.herokuapp.com/work/KeepCalm"
+"url" : ""
 },
 {
 "client" : "Milkbone",
@@ -79,7 +79,7 @@
 "desc":"This is a microsite showcasing new characters for a popular doll collection. It involved video engagement and character profiles.",
 "preview":"http://rudes.de/images/eah.jpg",
 "samples" : ["eah_01.jpg", "eah_02.jpg"],
-"url" : "http://rudes.herokuapp.com/work/EverAfterHigh"
+"url" : ""
 },
 {
 "client" : "Saban",
@@ -88,7 +88,7 @@
 "desc":"This site consisted of a customizable letter maker for children. Also, character profiles with social engagement.",
 "preview":"http://rudes.de/images/pw.jpg",
 "samples" : ["pr_01.jpg", "pr_02.jpg"],
-"url" : "http://rudes.herokuapp.com/work/PowerRangers"
+"url" : ""
 },
 {
 "client" : "LG",
@@ -115,7 +115,7 @@
 "desc":"Web advertising, rich media, and page overlays were some of many campaigns I was involved while employed in Deutsch.",
 "preview":"http://rudes.de/images/vw.jpg",
 "samples" : ["vw_01.jpg", "vw_02.jpg"],
-"url" : "http://rudes.herokuapp.com/work/VW"
+"url" : ""
 },
 {
 "client" : "HTC",
@@ -124,7 +124,7 @@
 "desc":"While working in Deutsch, I was involved in developing home page redesign, Facebook tabs, and web advertising for HTC.",
 "preview":"http://rudes.de/images/htc.jpg",
 "samples" : ["htc_01.jpg", "htc_03.jpg"],
-"url" : "http://rudes.herokuapp.com/work/HTC"
+"url" : ""
 },
 {
 "client" : "Personal Project",
@@ -160,7 +160,7 @@
 "desc":"Various web advertising such as rich media, banner ads, and mini games was part of many campaigns I programmed.",
 "preview":"http://rudes.de/images/nissan.jpg",
 "samples" : ["nissan_01.jpg", "nissan_02.jpg"],
-"url" : "http://rudes.herokuapp.com/work/Nissan"
+"url" : ""
 },
 {
 "client" : "AOL",
@@ -169,7 +169,7 @@
 "desc":"Being in charge of the interactive department, I developed and designed video player templates, interactive games, online content, and brand identity.",
 "preview":"http://rudes.de/images/tmz.jpg",
 "samples" : ["tmz_01.jpg", "tmz_02.jpg"],
-"url" : "http://rudes.herokuapp.com/work/TMZ"
+"url" : ""
 },
 
 {
@@ -179,7 +179,7 @@
 "desc":"Working at Zap2it, I handled the design and development of interactive games, ads, and web pages.",
 "preview":"http://rudes.de/images/zap.jpg",
 "samples" : ["zap_01.jpg", "zap_02.jpg"],
-"url" : "http://rudes.herokuapp.com/work/Zap2it"
+"url" : ""
 }
 ]
 }

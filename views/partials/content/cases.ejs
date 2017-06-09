@@ -23,9 +23,15 @@
 					<% for (i=0; i<projects.length; i++) { %>
 						<span><%- projects[i] %></span><br/>
 					<% } %>
+
 					<% for (i=0; i<urls.length; i++) { %>
-			 			<a href='<%= urls[i] %>' target="_blank"><span class="hyp">View case >></span></a><br/>
+						<% if (urls[i] === "") { %>
+			 				<span class="hyp"></span><br/>
+			 				<% } else{ %> 
+			 					<a href='<%= urls[i] %>' target="_blank"><span class="hyp">View case >></span></a><br/>
+			 			<% } %>
 			 		<% } %>
+
 				</div>
 				<ul class="grid effect-2" id="grid">
 					<% for (i=0; i<clients.length; i++) { %>
