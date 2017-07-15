@@ -5,46 +5,28 @@
   </head>
   <body onLoad="myLoader()">
 
-
   		<% include partials/template/header.ejs %>
 
 <!--     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p> -->
 
-
-
-
-    		
         <div id="coat">
-
           <img src="http://rudes.de/images/logo3.svg">
-
         </div>
 
     		<section class="primary">
-
-         
             <img id="part" src="http://rudes.de/images/obj1.svg">
-        
             <img id="part2" src="http://rudes.de/images/gray.png">
 
-
         <style>
-
             .svg-clipped {
                 -webkit-clip-path: url(#svgPath);
                 clip-path: url(#svgPath);
-
             }
-
-            
-
         </style>
 
           <div class="move">
           <!-- <img src="../images/bridge.jpg" class="svg-clipped"> -->
-
-
           <svg>
             <defs>
                 <clipPath id="svgPath">
@@ -57,34 +39,20 @@
                 </clipPath>
             </defs>
           </svg>
-
           </div>
-
-
 <!--             <img class="stitch" src="http://rudes.de/images/obj2.svg">
 
             <img class="letters" src="http://rudes.de/images/obj3.svg"> -->
 
 <!--             <img class="bar" src="http://rudes.de/images/bar.svg"> -->
 
-
     		</section>
-
-
     		<section class="secondary">
     			<% include partials/content/quote.ejs %>
     		</section>
 
-
-
-
     	<% include partials/template/footer.ejs %>
-      	<% include partials/template/jsdefaults.ejs %>
-
-
-
-
-
+      <% include partials/template/jsdefaults.ejs %>
 
       <script>
 
@@ -98,7 +66,5 @@
         ga('send', 'pageview');
 
       </script>
-
-
   </body>
 </html>

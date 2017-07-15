@@ -72,11 +72,6 @@ color: #000;
 }
 
 h1 {
-font-size: 2.2rem;
-color: #000;
-margin-bottom: .4rem;
-
-padding-top: 10px;
 }
 
 h2 {
@@ -110,23 +105,17 @@ font-size: 1rem;
 color: #2176c7;
 }
 
-
 .footicon {
 display: inline-table;
-
-margin-top: 18px;
 position: relative;
 text-align: center;
-width: 86px;
-
-
+width: 64px;
 }
 
 .burger {
 font-size: 60px;
 text-rendering: geometricPrecision;
 }
-
 
 * {
 -webkit-box-sizing: border-box;
@@ -152,7 +141,6 @@ clear: both;
 
 header {
 height: 100px;
-
 }
 
 svg{
@@ -168,7 +156,6 @@ left: 0px;
 .nav {
 width: 100%;
 height: 100px;
-
 }
 
 .nav > ul {
@@ -195,8 +182,8 @@ width: 100px;
 width: 100%;
 height: 100%;
 background-color: black;
-  top: 0; 
-  left: 0; 
+top: 0; 
+left: 0; 
 display: block;
 position: fixed;
 z-index: 9999;
@@ -204,9 +191,9 @@ z-index: 9999;
 
 #coat img {
 max-width: 100%;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+margin: auto;
+position: absolute;
+top: 0; left: 0; bottom: 0; right: 0;
 
 
 }
@@ -230,12 +217,12 @@ overflow: hidden;
 }
 
 .primary img {
-	max-width: 100%;
-	position: relative;
-	height: auto;
-	display: block;
-	top: 0;
-	left: 0;
+max-width: 100%;
+position: relative;
+height: auto;
+display: block;
+top: 0;
+left: 0;
 }
 
 .profile {
@@ -249,9 +236,7 @@ position: relative;
 overflow: hidden;
 }
 
-
 .profile img {
-
 max-width:85%;
 }
 
@@ -259,15 +244,14 @@ max-width:85%;
 display: block;
 font-size: 2em;
 height: 51px;
-margin-top: 1%;
+margin-top: 20px;
 position: relative;
 text-align: center;
 
 }
 
 .hyp {
-
-  font-weight: bold;
+font-weight: bold;
 /*  text-decoration: underline;*/
 }
 
@@ -284,12 +268,7 @@ margin:-100px 0 0 -100px; /* is width and height divided by two */
 z-index: 9999;
 }
 
-
-
-
-
 .holder {
-
 width: 100%;
 text-align:center;
 
@@ -305,12 +284,9 @@ text-align: justify;
 width: 85%;
 }
 
-
 .container {
 width: 100%;
-
 }
-
 
 #screen {
 position:fixed;
@@ -321,12 +297,7 @@ width: 100%;
 height: 100%;
 background-color:#ebebeb; /* change if the mask should have another color then white */
 z-index: 99;
-
-
-
-
 }
-
 
 .bar {
 left: 47%;
@@ -344,8 +315,6 @@ animation-fill-mode: forwards;
 animation-delay: 3s;
 }
 
-
-
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mybar {
 from {-webkit-transform: rotate(20deg);}
@@ -358,8 +327,6 @@ from {transform: rotate(20deg);}
 to {transform: rotate(47deg);}
 }
 
-
-
 .stitch {
 left: -42%;
 top: 83%;
@@ -367,12 +334,7 @@ position: absolute;
 width: 84%;
 display: block;
 z-index: 2
-
 }
-
-
-
-
 
 .letters {
 left: 66%;
@@ -385,14 +347,10 @@ z-index: 2;
 
 }
 
-
-
 .svg-clipped {
 -webkit-clip-path: url(#svgPath);
 clip-path: url(#svgPath);
 }
-
-
 
 #part2 {
 left: 45%;
@@ -401,7 +359,7 @@ position: absolute;
 width: 40%;
 z-index: 4;
 transform: rotate(10deg);
--webkit-transform: rotate(0deg);
+-webkit-transform: rotate(10deg);
 -webkit-animation: gray 16s; /* Chrome, Safari, Opera */
 animation: gray 16s;
 -webkit-animation-fill-mode: forwards;
@@ -412,7 +370,6 @@ animation-delay: 3s;
 clip-path: url(#svgPath); */
 
 }
-
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes gray {
@@ -426,11 +383,7 @@ from {transform: rotate(10deg);}
 to {transform: rotate(0deg);}
 }
 
-
-
-
 .move {
-
 display: block;
 left: 0px;
 position: absolute;
@@ -460,15 +413,13 @@ top: -18%;
 position: absolute;
 transform: rotate(-15deg);
 width: 50%;
--webkit-animation: myfirst 18s; /* Chrome, Safari, Opera */
+-webkit-animation: myfirst 18s; 
 animation: myfirst 18s;
 -webkit-animation-fill-mode: forwards;
 -moz-animation-fill-mode: forwards;
 animation-fill-mode: forwards;
 animation-delay: 3s;
 }
-
-
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes myfirst {
@@ -512,6 +463,13 @@ width: 100%;
 background-color: #ffdd18;
 display: block;
 text-align: center;
+padding-bottom: 50px;
+}
+
+.wgrid h1 {
+color: #000;
+margin-bottom: .4rem;
+padding-top: 22px;
 }
 
 .wgrid span {
@@ -558,7 +516,7 @@ max-width: 100%;
 
 footer {
 color: #000;
-background: #ed1c24;
+background: #ebebeb;
 padding-top: 20px;
 padding-bottom: 100px;
 position: relative;
@@ -566,4 +524,26 @@ text-align: center;
 }
 
 
+.footcontainer {
+flex-direction: row;
+display: flex;
+margin: 0 auto;
+width: 290px;
+margin-top: 30px;
+}
 
+.footcontainer > div {
+display: flex;
+margin: 0 auto;
+}
+
+.contactcont{
+flex-direction: column;
+display: flex!important;
+margin: 0 auto;
+width: 290px;
+}
+
+.contactcont > span {
+margin: 0 auto!important;
+}
