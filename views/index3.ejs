@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  		<% include partials/template/head.ejs %>
+  </head>
+  <body onLoad="myLoader()">
+  		<% include partials/template/header.ejs %>
+<!--     <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p> -->
+        <div id="coat">
+          <img src="http://rudes.de/images/logo3.svg">
+        </div>
+
+    		<section class="primary">
+          <img src="http://rudes.de/images/newhome.jpg">
+    		</section>
+
+    		<section class="secondary">
+    			<% include partials/content/quote.ejs %>
+    		</section>
+
+    	<% include partials/template/footer.ejs %>
+      <% include partials/template/jsdefaults.ejs %>
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-61681464-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+
+  </body>
+</html>

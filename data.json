@@ -19,13 +19,13 @@
 "url" : ""
 },
 {
-"client" : "Aframe Experiment",
-"namecase":"Aframe",
-"title":"Aframe Mobile Device Accelerometer",
+"client" : "Labyrinth 3D",
+"namecase":"Labyrinth-3D",
+"title":"Labyrinth 3D",
 "desc":"Control the labyrinth board game on a browser using Socket.io with your mobile device. It uses the phone's accelerometer coordinates to sync the board's 3d positions.",
 "preview":"http://rudes.de/images/accel.jpg",
 "samples" : ["accel_01.jpg"],
-"url" : "https://github.com/rrudy90023/aframe-proto/tree/labyrinth"
+"url" : "http://rudes.de/labyrinth3d/docs.html"
 },
 {
 "client" : "Media Arts Lab",
@@ -43,7 +43,7 @@
 "desc":"I started a database of independent galleries in Downtown LA. Each gallery has a VR experience that I created with a 360 camera I purchased.",
 "preview":"http://rudes.de/images/vr.jpg",
 "samples" : ["vr_01.jpg"],
-"url" : "http://galleryla.herokuapp.com"
+"url" : "http://rudes.de/galleryla/docs.html"
 },
 {
 "client" : "KoolAid",
@@ -88,7 +88,7 @@
 "desc":"This site consisted of a customizable letter maker for children. Also, character profiles with social engagement.",
 "preview":"http://rudes.de/images/pw.jpg",
 "samples" : ["pr_01.jpg", "pr_02.jpg"],
-"url" : ""
+"url" : "http://rudes.de/powerrangers/powerrangers.html"
 },
 {
 "client" : "LG",

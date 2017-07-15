@@ -218,7 +218,7 @@ max-width:50%;
 */
 
 .primary {
-background-color: #f99d5f;
+background-color: #223f9a;
 display: block;
 height: 0;
 padding-bottom: 60%;
@@ -239,7 +239,7 @@ overflow: hidden;
 }
 
 .profile {
-background-color: #ebebeb;
+background-color: #ffdd18;
 display: block;
 height: 100%;
 
@@ -429,7 +429,7 @@ to {transform: rotate(0deg);}
 
 
 
-/*.move {
+.move {
 
 display: block;
 left: 0px;
@@ -451,7 +451,7 @@ display: block;
 left: 0px;
 position: absolute;
 z-index: 3;
-}*/
+}
 
 
 #part {
@@ -486,7 +486,7 @@ to {transform: rotate(0deg);}
 .secondary {
 width: 100%;
 font-size: 1.2rem;
-background-color: #f99d5f;
+background-color: #ffdd18;
 position: relative;
 text-align: justify;
 
@@ -509,7 +509,7 @@ text-align: center;
 
 .wgrid {
 width: 100%;
-background-color: #ebebeb;
+background-color: #ffdd18;
 display: block;
 text-align: center;
 }
@@ -558,7 +558,7 @@ max-width: 100%;
 
 footer {
 color: #000;
-background: #ebebeb;
+background: #ed1c24;
 padding-top: 20px;
 padding-bottom: 100px;
 position: relative;
