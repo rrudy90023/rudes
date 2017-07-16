@@ -1,7 +1,7 @@
 
 	<div class="wgrid">
 	<% if (page=== 'work') { %>
-	<h1>Work</h1>
+	<span class="worktitle">Work</span>
 		<ul class="grid effect-2" id="grid">
 			<% appdata.works.forEach(function(item){ %>
 				<li>
@@ -21,14 +21,14 @@
 		<% } else { %>
 				<div class="tableft">
 					<% for (i=0; i<projects.length; i++) { %>
-						<span><%- projects[i] %></span><br/>
+						<span class="prodesc">  <%- projects[i] %></span><br/>
 					<% } %>
 
 					<% for (i=0; i<urls.length; i++) { %>
 						<% if (urls[i] === "") { %>
 			 				<span class="hyp"></span><br/>
 			 				<% } else{ %> 
-			 					<a href='<%= urls[i] %>' target="_blank"><span class="hyp">View case >></span></a><br/>
+			 					<a href='<%= urls[i] %>' target="_blank"><span class="hyp">&nbsp View case >> &nbsp</span></a><br/>
 			 			<% } %>
 			 		<% } %>
 

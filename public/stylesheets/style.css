@@ -16,7 +16,7 @@ time, mark, audio, video {
 margin: 0;
 padding: 0;
 border: 0;
-font: 'Cabin', sans-serif;
+font-family: 'Cabin', sans-serif;
 font-size: 100%;
 vertical-align: baseline;
 }
@@ -109,12 +109,21 @@ color: #2176c7;
 display: inline-table;
 position: relative;
 text-align: center;
-width: 64px;
+
+}
+
+.footicon a{
+padding: 12px;
+/*background: #ed1c24;*/
+/*background: #ed1c24;*/
+
 }
 
 .burger {
 font-size: 60px;
 text-rendering: geometricPrecision;
+background: #ed1c24;
+color: white;
 }
 
 * {
@@ -160,13 +169,13 @@ height: 100px;
 
 .nav > ul {
 /*  max-width: 60%;*/
-height: 80px;
+height: 100px;
 }
 
 .nav > ul li{
 float: right;
-margin-right: 2%;
-margin-top: 28px;
+margin-right: 14px;
+margin-top: 36px;
 display: inline-block;
 }
 
@@ -200,7 +209,6 @@ top: 0; left: 0; bottom: 0; right: 0;
 
 /*.logo > a > img {
 max-width:50%;
-
 }
 */
 
@@ -229,7 +237,7 @@ left: 0;
 background-color: #ffdd18;
 display: block;
 height: 100%;
-
+padding-bottom: 70px;
 text-align: center;
 max-width: 100%;
 position: relative;
@@ -238,20 +246,12 @@ overflow: hidden;
 
 .profile img {
 max-width:85%;
-}
-
-.greet{
-display: block;
-font-size: 2em;
-height: 51px;
-margin-top: 20px;
-position: relative;
-text-align: center;
-
+margin-bottom: 30px;
 }
 
 .hyp {
 font-weight: bold;
+background: white;
 /*  text-decoration: underline;*/
 }
 
@@ -270,8 +270,11 @@ z-index: 9999;
 
 .holder {
 margin: 0 auto;
-padding: 40px;
-text-align: left;
+padding: 10px;
+position: relative;
+text-align: justify;
+background: white;
+width: 85%;
 }
 
 .para{
@@ -281,12 +284,15 @@ margin-left: auto;
 margin-right: auto;
 max-width: 90%;
 /* padding: 4%; */
+position: relative;
 right: auto;
 background: white;
+text-align: justify;
 }
 
 .container {
 width: 100%;
+margin-top: 100px;
 }
 
 #screen {
@@ -441,12 +447,13 @@ font-size: 1.2rem;
 background-color: #ffdd18;
 position: relative;
 text-align: justify;
-
+padding: 30px;
 }
 
 .secondary > div {
 margin: 0 auto;
-padding: 40px;
+padding: 10px;
+background: white;
 }
 
 .secondary span {
@@ -466,11 +473,14 @@ text-align: center;
 }
 
 .wgrid {
-width: 100%;
 background-color: #ffdd18;
 display: block;
+height: 100%;
 text-align: center;
-padding-bottom: 50px;
+max-width: 100%;
+position: relative;
+overflow: hidden;
+padding-bottom: 70px;
 }
 
 .wgrid h1 {
@@ -479,20 +489,60 @@ margin-bottom: .4rem;
 padding-top: 22px;
 }
 
-.wgrid span {
+/*.wgrid span {
 font-family: 'Cabin', sans-serif;
 font-size: 1.2rem;
 line-height: 160%;
 background: #fff;
 color: #000;
 text-align: left;
+}*/
+
+.prodesc {
+font-family: 'Cabin', sans-serif;
+font-size: 1.2rem;
+line-height: 160%;
+background: #223f9a;
+color: #fff;
+text-align: left;
+}
+
+.worktitle {
+display: block;
+font-size: 2em;
+height: 51px;
+margin-top: 20px;
+position: relative;
+/* text-align: center; */
+width: 200px;
+margin: 0 auto;
+position: relative;
+top: 50px;
+background: #223f9a;
+color: white;
+padding: 10px;
+}
+
+.greet{
+display: block;
+font-size: 2em;
+height: 51px;
+margin-top: 20px;
+position: relative;
+/* text-align: center; */
+width: 200px;
+margin: 0 auto;
+position: relative;
+top: 50px;
+background: #223f9a;
+color: white;
+padding: 10px;
 }
 
 .tableft {
 padding: 5%;
 text-align: left;
 }
-
 
 .soc-over {
 text-align: center;
@@ -504,22 +554,18 @@ display: inline-block;
 width: 49%;
 }
 
-
 .coholder > img {
 max-width: 100%;
 }
-
 
 .coholder2 {
 display: inline-block;
 max-width: 100%;
 }
 
-
 .coholder2 > img {
 max-width: 100%;
 }*/
-
 
 footer {
 color: #000;
@@ -529,7 +575,6 @@ padding-bottom: 100px;
 position: relative;
 text-align: center;
 }
-
 
 .footcontainer {
 flex-direction: row;
@@ -551,6 +596,8 @@ margin: 0 auto;
 width: 290px;
 }
 
-.contactcont > span {
+.contactcont span, .contactcont a {
+background: #ed1c24;
+color: white;
 margin: 0 auto!important;
 }

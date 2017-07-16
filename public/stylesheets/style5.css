@@ -61,10 +61,10 @@ margin-bottom: 20px;
 .overlay ul li a {
 font-size: 54px;
 font-weight: 300;
-background: white;
+background: #213F9A;
 padding: 20px;
 display: block;
-color: #000;
+color: #fff;
 -webkit-transition: color 0.2s;
 transition: color 0.2s;
 }

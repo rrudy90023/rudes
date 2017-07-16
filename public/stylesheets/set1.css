@@ -138,21 +138,31 @@ figure.effect-lily h2 {
 }
 
 figure.effect-lily p {
-	color: black;
 	padding-left: 10px;
-	background: white;
+	padding-left: 10px;
+    background: #ed1c24;
 	font-weight: bold;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
 }
 
-figure.effect-lily:hover img {
-
-	opacity: 0;
+.dot {
+background: #ed1c24;
+position: relative;
+width: 40px;
+height: 40px;
 }
 
+/*figure.effect-lily p .dot {
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;	
+}*/
 
+figure.effect-lily:hover img {
+	opacity: 0;
+}
 
 figure.effect-lily:hover p {
 	opacity: 1;
@@ -160,12 +170,12 @@ figure.effect-lily:hover p {
 
 figure.effect-lily:hover img,
 figure.effect-lily:hover h2,
-figure.effect-lily:hover p {
+figure.effect-lily:hover p, .dot {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-lily:hover p {
+figure.effect-lily:hover p, .dot {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 	-webkit-transition-duration: 0.35s;
