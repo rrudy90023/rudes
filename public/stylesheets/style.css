@@ -122,8 +122,8 @@ padding: 12px;
 .burger {
 font-size: 60px;
 text-rendering: geometricPrecision;
-background: #ed1c24;
-color: white;
+/*background: #ed1c24;*/
+color: black;
 }
 
 * {
