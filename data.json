@@ -1,13 +1,13 @@
 {
 "works": [
 {
-"client" : "Leap Motion Experiment  ",
-"namecase":"LeapMotion",
-"title":"Leap Motion Experiment  ",
-"desc":"  Over time I familiarized with Aframe and made a VR experiment with the Leap Motion sensor. With the Leap, you control the 3D object on a browser using hand gestures.  ",
+"client" : "Museum Exhibit Experiment  ",
+"namecase":"museum-exhibit",
+"title":"Museum Exhibit Experiment  ",
+"desc":"  Over time I familiarized with Aframe and made a VR experiment with the Leap Motion sensor. With the Leap, you control the 3D object on a browser using hand gestures. ",
 "preview":"http://rudes.de/images/leap.jpg",
 "samples" : ["leap_01.jpg"],
-"url" : "https://github.com/rrudy90023/aframe-proto"
+"url" : "http://rudes.de/blog/museum-exhibit-prototype/"
 },
 {
 "client" : "Media Arts Lab  ",
@@ -25,7 +25,7 @@
 "desc":"  Control the labyrinth board game on a browser using Socket.io with your mobile device. It uses the phone's accelerometer coordinates to sync the board's 3d positions.  ",
 "preview":"http://rudes.de/images/accel.jpg",
 "samples" : ["accel_01.jpg"],
-"url" : "http://rudes.de/labyrinth3d/docs.html"
+"url" : "http://rudes.de/blog/fun-with-socket-io-labyrinth-3d/"
 },
 {
 "client" : "Media Arts Lab  ",
@@ -43,7 +43,7 @@
 "desc":"  I started a database of independent galleries in Downtown LA. Each gallery has a VR experience that I created with a 360 camera I purchased.  ",
 "preview":"http://rudes.de/images/vr.jpg",
 "samples" : ["vr_01.jpg"],
-"url" : "http://rudes.de/galleryla/docs.html"
+"url" : "http://rudes.de/blog/gallery-la-vr/"
 },
 {
 "client" : "KoolAid  ",
