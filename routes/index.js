@@ -21,7 +21,7 @@ router.get('/work', function(req, res) {
     //});
   });
   res.render('work', { 
-  	title: 'Work',
+  	title: 'work',
   	projects: myProjects,
     clients: myClients,
     urls: myUrls,

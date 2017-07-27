@@ -2,7 +2,7 @@
 "works": [
 {
 "client" : "Museum Exhibit Experiment  ",
-"namecase":"museum-exhibit",
+"namecase":"Museum-Exhibit",
 "title":"Museum Exhibit Experiment  ",
 "desc":"  Over time I familiarized with Aframe and made a VR experiment with the Leap Motion sensor. With the Leap, you control the 3D object on a browser using hand gestures. ",
 "preview":"http://rudes.de/images/leap.jpg",
@@ -38,7 +38,7 @@
 },    
 {
 "client" : "Gallery LA VR  ",
-"namecase":"GalleryLA",
+"namecase":"Gallery-LA",
 "title":"Gallery LA VR  ",
 "desc":"  I started a database of independent galleries in Downtown LA. Each gallery has a VR experience that I created with a 360 camera I purchased.  ",
 "preview":"http://rudes.de/images/vr.jpg",
@@ -55,7 +55,7 @@
 "url" : ""
 },
 {
-"client" : "KeepCalm  ",
+"client" : "Keep Calm  ",
 "namecase":"Keep-Calm",
 "title":"Keep Calm Micro site  ",
 "desc":"  This is a micro site for Keep Calm Lip Balm campaign. It is fully responsive on all devices.  ",
