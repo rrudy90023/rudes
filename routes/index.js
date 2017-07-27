@@ -3,7 +3,7 @@ var router = express.Router();
 var appdata = require('../data.json');
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Home' });
+  res.render('index', { title: 'rudes.de' });
 });
 
 
@@ -55,7 +55,7 @@ router.get('/work/:clientid', function(req, res) {
 
   });
   res.render('work', { 
-    title: 'Work',
+    title: 'work',
     projects: myProjects,
     clients: myClients,
     urls: myUrls,
@@ -68,7 +68,7 @@ router.get('/work/:clientid', function(req, res) {
 
 /* GET profile page. */
 router.get('/profile', function(req, res) {
-  res.render('profile', { title: 'Profile' });
+  res.render('profile', { title: 'profile' });
 });
 
 module.exports = router;
